@@ -1,0 +1,733 @@
+{
+  "users": [
+    {
+      "email": "admin@mail.ru",
+      "password": "$2a$10$psOW/8DO5.TnH7x0hq4QluM7Da9p42dkLvWSnNnLKawT.oIGtmsyO",
+      "login": "Admin",
+      "phone": "+996(500)32-63-20",
+      "confirmPwd": "admin",
+      "orders": [
+        {
+          "name": "",
+          "email": "SAD@MAIL.RU",
+          "phone": "",
+          "country": "",
+          "city": "",
+          "street": "",
+          "house": "",
+          "flat": "",
+          "message": "",
+          "clothes": [
+            {
+              "id": 7,
+              "title": "Sport Suit STAMINA2",
+              "image": {
+                "black": "Shop/sportsuit2.jpg",
+                "white": "Shop/sportsuit2-white.jpg",
+                "red": "Shop/sportsuit2-red.jpg",
+                "pink": "Shop/sportsuit2-pink.jpg",
+                "grey": "Shop/sportsuit2-grey.jpg",
+                "beige": "Shop/sportsuit2-almond.jpg",
+                "blue": "Shop/sportsuit2-blue.jpg"
+              },
+              "color": "beige",
+              "size": "s",
+              "count": 2,
+              "price": 279,
+              "category": "sportsuit"
+            }
+          ],
+          "price": 558,
+          "date": "2022-05-16T12:27:07.632Z"
+        },
+        {
+          "name": "mona",
+          "email": "nurik@mail.ru",
+          "phone": "",
+          "country": "",
+          "city": "",
+          "street": "",
+          "house": "",
+          "flat": "",
+          "message": "",
+          "clothes": [
+            {
+              "id": 6,
+              "title": "Sport Suit STAMINA1",
+              "image": {
+                "black": "Shop/sportsuit1-black.jpg",
+                "white": "Shop/sportsuit1-white.jpg",
+                "red": "Shop/sportsuit1-red.jpg",
+                "pink": "Shop/sportsuit1-pink.jpg",
+                "grey": "Shop/sportsuit1-grey.jpg",
+                "beige": "Shop/sportsuit1-beige.jpg",
+                "blue": "Shop/sportsuit1.jpg"
+              },
+              "color": "beige",
+              "size": "s",
+              "count": 1,
+              "price": 279,
+              "category": "sportsuit"
+            }
+          ],
+          "price": 279,
+          "date": "2022-05-16T12:29:26.197Z"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "email": "max123@mail.ru",
+      "password": "$2a$10$w09uZtYDaECLLmIMgE6t2OQ3gJEHI2X9EkY2odubQgKWBqZ4Kipca",
+      "login": "max",
+      "phone": "+996505020599",
+      "id": 2
+    },
+    {
+      "email": "magezamuslim40@gmail.com",
+      "password": "$2a$10$Juo/Jwh6kh4NEJZcfk9Mfe8y/aQ2So33oRfMhFFnxmEPpiDIobOZe",
+      "login": "Muslim0270705",
+      "phone": "+996(220)25-71-51",
+      "confirmPwd": "gold0555965644",
+      "orders": [],
+      "id": 3
+    }
+  ],
+  "clothes": [
+    {
+      "id": 1,
+      "title": "Nike Sportswear Hoodie",
+      "price": 415,
+      "priceSale": 200,
+      "image": {
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a831cd48-6b47-476b-88f5-3bada7fd13dd/sportswear-kids-hoodie-black.png",
+        "red": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1ed56e11-d59f-4a28-b8a1-9681ca5ce4f1/sportswear-kids-hoodie-red.png",
+        "white": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f7ca6a72-b18e-486b-ba34-e4097fdc54c5/sportswear-kids-hoodie-white.png",
+        "blue": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/41cc14a2-0e9d-4b63-9f16-4939e9c7e402/sportswear-kids-hoodie-blue.png"
+      },
+      "category": "hoody",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl",
+        "xxl",
+        "xs"
+      ],
+      "colors": [
+        "red",
+        "blue",
+        "white",
+        "black"
+      ],
+      "inStock": 15
+    },
+    {
+      "id": 2,
+      "title": "Nike Sportswear Icon Fleece",
+      "price": 500,
+      "priceSale": 290,
+      "image": {
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ca573127-b8df-466e-9951-0d99bc30b58d/sportswear-icon-fleece-big-kids-oversized-sweatshirt-T8Tjww.png",
+        "red": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/29109691-0d36-4eba-8ac1-606221760c58/sportswear-icon-fleece-big-kids-oversized-sweatshirt-T8Tjww.png",
+        "white": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/a6b900fa-a2cb-4096-82df-d4aa14c8ef98/sportswear-icon-fleece-big-kids-oversized-sweatshirt-T8Tjww.png",
+        "blue": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/7c0456ef-9ae2-4608-96ae-5b5ac5e2ea9d/sportswear-icon-fleece-big-kids-oversized-sweatshirt-T8Tjww.png"
+      },
+      "category": "hoody",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl",
+        "xxl",
+        "xs"
+      ],
+      "colors": [
+        "red",
+        "blue",
+        "white",
+        "black"
+      ],
+      "inStock": 7
+    },
+    {
+      "id": 3,
+      "title": "Nike Let's Be Real Pullover Hoodie",
+      "price": 519,
+      "priceSale": 400,
+      "image": {
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/407d7f11-294d-487f-b710-56da29e0eb84/lets-be-real-pullover-hoodie-toddler-hoodie-jb23Sf.png",
+        "white": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/eefd6f91-37e4-4d8c-9dc6-f6a8405657a2/lets-be-real-pullover-hoodie-toddler-hoodie-jb23Sf.png",
+        "grey": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/d24a4797-4e69-4493-bb9e-7d6a52dffe39/lets-be-real-pullover-hoodie-toddler-hoodie-jb23Sf.png",
+        "sag": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/a633dbd6-a565-4782-b746-885badbd40e7/lets-be-real-pullover-hoodie-toddler-hoodie-jb23Sf.png"
+      },
+      "category": "hoody",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "black",
+        "grey"
+      ],
+      "inStock": 23
+    },
+    {
+      "id": 4,
+      "title": "Nike Let's Be Real Pullover Hoodie",
+      "price": 519,
+      "priceSale": 400,
+      "image": {
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7c341ca5-63b3-4324-a0fe-6876ed917729/lets-be-real-pullover-hoodie-toddler-hoodie-jb23Sf.png",
+        "white": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f76d5519-3d40-411e-a892-52b329ffc30a/lets-be-real-pullover-hoodie-toddler-hoodie-jb23Sf.png",
+        "grey": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/76bb4b12-8dcb-42ea-9e71-248b6b09c0f6/lets-be-real-pullover-hoodie-toddler-hoodie-jb23Sf.png",
+        "sag": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/5d30f901-1aad-4417-bfa3-e2283a9bafdc/lets-be-real-pullover-hoodie-toddler-hoodie-jb23Sf.png"
+      },
+      "category": "hoody",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "black",
+        "grey"
+      ],
+      "inStock": 21
+    },
+    {
+      "id": 5,
+      "title": "Nike Sportswear Club Fleece",
+      "price": 339,
+      "image": {
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/6984b760-2d9b-4b87-afce-a25f4ba8b5e9/sportswear-club-fleece-big-kids-girls-crew-sweatshirt-JCZ29g.png",
+        "white": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/32145e10-f37d-4618-921f-7ad7415e16d2/sportswear-club-fleece-big-kids-girls-crew-sweatshirt-JCZ29g.png",
+        "grey": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/59ee8090-939f-4614-b783-3a81a94007fe/sportswear-club-fleece-big-kids-girls-crew-sweatshirt-JCZ29g.png",
+        "look": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e70dd432-040e-4712-86e4-42b0e3d7df18/sportswear-club-fleece-big-kids-girls-crew-sweatshirt-JCZ29g.png"
+      },
+      "category": "hoody",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "black",
+        "grey"
+      ],
+      "inStock": 10
+    },
+    {
+      "id": 6,
+      "title": "Nike Sportswear Club Fleece",
+      "price": 279,
+      "image": {
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4ef62249-2c00-44fe-a475-66fa63926297/sportswear-club-fleece-big-kids-french-terry-short-sleeve-sweatshirt-MVr5BS.png",
+        "white": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0a045c15-85e0-44fc-b6ac-e62b3684c6b0/sportswear-club-fleece-big-kids-french-terry-short-sleeve-sweatshirt-MVr5BS.png",
+        "red": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/99a85064-4366-42e4-81a2-7079f52bb4ed/sportswear-club-fleece-big-kids-french-terry-short-sleeve-sweatshirt-MVr5BS.png",
+        "pink": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/32dcbcfb-0d35-4624-ba6e-113c9443d8d7/sportswear-club-fleece-big-kids-french-terry-short-sleeve-sweatshirt-MVr5BS.png"
+      },
+      "category": "sportsuit",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "beige",
+        "black",
+        "white",
+        "red",
+        "blue",
+        "pink",
+        "grey"
+      ],
+      "inStock": 33
+    },
+    {
+      "id": 7,
+      "title": "Nike ACG Icon Fleece",
+      "price": 279,
+      "image": {
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/94274fab-0590-4d64-ad16-8dd7e48abbb0/acg-icon-fleece-big-kids-pullover-hoodie-2w35bJ.png",
+        "white": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c3b63c60-fc05-4a5e-b839-e9b17001f861/acg-icon-fleece-big-kids-pullover-hoodie-2w35bJ.png",
+        "red": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/dfede2cf-8ee0-4742-83f8-4cd876389c46/acg-icon-fleece-big-kids-pullover-hoodie-2w35bJ.png",
+        "pink": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c2858bed-5078-4c4f-b9a9-dca5e27795e0/acg-icon-fleece-big-kids-pullover-hoodie-2w35bJ.png"
+      },
+      "category": "sportsuit",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "beige",
+        "black",
+        "white",
+        "red",
+        "blue",
+        "pink",
+        "grey"
+      ],
+      "inStock": 12
+    },
+    {
+      "id": 8,
+      "title": "Nike XO Swoosh Full-Zip Hoodie",
+      "price": 229,
+      "image": {
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/0a3d202b-6f9e-421f-b53b-5bd4967f5d9b/xo-swoosh-full-zip-hoodie-toddler-hoodie-9P1GZ0.png",
+        "white": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3f4ae6d1-89c7-4f07-8370-29805a43f2d4/xo-swoosh-full-zip-hoodie-toddler-hoodie-9P1GZ0.png",
+        "red": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/b40ecbaa-d505-44d0-b70f-db184ed22265/xo-swoosh-full-zip-hoodie-toddler-hoodie-9P1GZ0.png",
+        "pink": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/e3690605-344e-4b78-b731-648bb2cd0ec7/xo-swoosh-full-zip-hoodie-toddler-hoodie-9P1GZ0.png"
+      },
+      "category": "sportsuit",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "beige",
+        "black",
+        "white",
+        "red",
+        "pink",
+        "grey"
+      ],
+      "inStock": 9
+    },
+    {
+      "id": 9,
+      "title": "Nike Icon Fleece",
+      "price": 259,
+      "image": {
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/31a8cae7-4882-4ce2-a0a6-4697eaef2981/icon-fleece-toddler-crew-f05JJv.png",
+        "blue": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/33082351-e212-44b6-866c-975a0b859084/icon-fleece-toddler-crew-f05JJv.png",
+        "white": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ecafecea-c813-4e7d-8e2f-44b03a1cd783/icon-fleece-toddler-crew-f05JJv.png",
+        "red": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/828339a4-d346-4578-baf2-ec42dcdda07c/icon-fleece-toddler-crew-f05JJv.png"
+      },
+      "category": "sportsuit",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "beige",
+        "black",
+        "white",
+        "red",
+        "pink",
+        "grey",
+        "blue"
+      ],
+      "inStock": 31
+    },
+    {
+      "id": 10,
+      "title": "Sport Suit Flow",
+      "price": 290,
+      "priceSale": 150,
+      "image": {
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/fb73638c-6f71-410e-ae3e-2361b556f9b1/sportswear-club-fleece-toddler-pullover-hoodie-xGXTLL.png",
+        "blue": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/5d41db88-2644-40a8-bea8-44b8e7c7f165/sportswear-club-fleece-toddler-pullover-hoodie-xGXTLL.png",
+        "white": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/cdce741e-1d8e-4ad1-a76d-ba06c8039382/sportswear-club-fleece-toddler-pullover-hoodie-xGXTLL.png",
+        "red": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d055cf6b-4230-494d-bd92-b7e0410d0046/sportswear-club-fleece-toddler-pullover-hoodie-xGXTLL.png"
+      },
+      "category": "sportsuit",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "beige",
+        "black",
+        "white",
+        "red",
+        "pink",
+        "grey",
+        "blue"
+      ],
+      "inStock": 6
+    },
+    {
+      "id": 11,
+      "title": "Nike Sweatshirt Club Fleece",
+      "price": 300,
+      "image": {
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/788e8e38-872b-4c02-8426-28ad4551c618/sportswear-club-fleece-toddler-pullover-hoodie-92SZ9l.png",
+        "white": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/78d15bd8-9001-46af-923c-0e659debf82b/sportswear-club-fleece-toddler-pullover-hoodie-92SZ9l.png",
+        "red": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b81a4297-e9e2-4b1b-87db-270415915d06/sportswear-club-fleece-toddler-pullover-hoodie-92SZ9l.png",
+        "grey": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/cd3661e0-08ae-409c-ba48-7dfbe2fbda0e/sportswear-club-fleece-toddler-pullover-hoodie-92SZ9l.png"
+      },
+      "category": "sweatshirt",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "grey",
+        "red",
+        "black",
+        "white"
+      ],
+      "inStock": 45
+    },
+    {
+      "id": 12,
+      "title": "Nike I.A.I.R. Icon Fleece Hoodie",
+      "price": 230,
+      "image": {
+        "pink": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/104441ab-1be1-492e-8175-2471d2d31570/iair-icon-fleece-hoodie-toddler-hoodie-4Xwkrr.png",
+        "white": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/adeacabe-7743-4141-90c6-3914739a50ef/iair-icon-fleece-hoodie-toddler-hoodie-4Xwkrr.png",
+        "blue": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/dd7b6f3d-3867-40e5-a192-b08407447f4f/iair-icon-fleece-hoodie-toddler-hoodie-4Xwkrr.png",
+        "red": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b9e3d066-25bb-4bcd-91f5-e81d168191f1/iair-icon-fleece-hoodie-toddler-hoodie-4Xwkrr.png"
+      },
+      "category": "sweatshirt",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "pink",
+        "white",
+        "black",
+        "red",
+        "khaki",
+        "beige",
+        "grey",
+        "aqua",
+        "blue"
+      ],
+      "inStock": 44
+    },
+    {
+      "id": 13,
+      "title": "Downtown Big Kids' Sweatshirt ",
+      "price": 200,
+      "image": {
+        "black": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1350,h_1350/global/620266/88/mod01/fnd/PNA/fmt/png/Downtown-Big-Kids'-Hoodie",
+        "white": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/620266/88/mod02/fnd/PNA/fmt/png/Downtown-Big-Kids'-Hoodie",
+        "red": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/620266/88/mod04/fnd/PNA/fmt/png/Downtown-Big-Kids'-Hoodie",
+        "grey": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/620266/88/mod03/fnd/PNA/fmt/png/Downtown-Big-Kids'-Hoodie"
+      },
+      "category": "sweatshirt",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "grey",
+        "black",
+        "white",
+        "red"
+      ],
+      "inStock": 52
+    },
+    {
+      "id": 14,
+      "title": "PUMA Mates T7 Little Kids' Hoodie",
+      "price": 250,
+      "image": {
+        "pink": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1350,h_1350/global/538471/69/mod01/fnd/PNA/fmt/png/PUMA-Mates-T7-Little-Kids'-Hoodie",
+        "white": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/538471/69/mod02/fnd/PNA/fmt/png/PUMA-Mates-T7-Little-Kids'-Hoodie",
+        "blue": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/538471/69/mod03/fnd/PNA/fmt/png/PUMA-Mates-T7-Little-Kids'-Hoodie",
+        "red": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/538471/69/mod04/fnd/PNA/fmt/png/PUMA-Mates-T7-Little-Kids'-Hoodie"
+      },
+      "category": "sweatshirt",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "pink",
+        "white",
+        "black",
+        "red",
+        "khaki",
+        "beige",
+        "grey",
+        "aqua",
+        "blue"
+      ],
+      "inStock": 15
+    },
+    {
+      "id": 15,
+      "title": "PUMA Mates T7 Little Kids' Hoodie",
+      "price": 200,
+      "image": {
+        "black": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1350,h_1350/global/538471/01/mod01/fnd/PNA/fmt/png/PUMA-Mates-T7-Little-Kids'-Hoodie",
+        "white": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/538471/01/mod02/fnd/PNA/fmt/png/PUMA-Mates-T7-Little-Kids'-Hoodie",
+        "red": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/538471/01/mod03/fnd/PNA/fmt/png/PUMA-Mates-T7-Little-Kids'-Hoodie",
+        "grey": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/538471/01/mod05/fnd/PNA/fmt/png/PUMA-Mates-T7-Little-Kids'-Hoodie"
+      },
+      "category": "sweatshirt",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "white",
+        "grey",
+        "black",
+        "red"
+      ],
+      "inStock": 16
+    },
+    {
+      "id": 16,
+      "title": "PUMA x LIBERTY Little Kids' Hoodie",
+      "price": 540,
+      "image": {
+        "black": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1350,h_1350/global/620286/37/mod01/fnd/PNA/fmt/png/PUMA-x-LIBERTY-Little-Kids'-Hoodie",
+        "beige": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/620286/37/mod02/fnd/PNA/fmt/png/PUMA-x-LIBERTY-Little-Kids'-Hoodie",
+        "blue": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/620286/37/mod03/fnd/PNA/fmt/png/PUMA-x-LIBERTY-Little-Kids'-Hoodie",
+        "brown": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/620286/37/mod04/fnd/PNA/fmt/png/PUMA-x-LIBERTY-Little-Kids'-Hoodie"
+      },
+      "category": "sweatshirt",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "pink",
+        "black",
+        "brown",
+        "beige",
+        "red",
+        "orange",
+        "white",
+        "blue",
+        "grey"
+      ],
+      "inStock": 27
+    },
+    {
+      "id": 17,
+      "title": "Nike ACG Graphic Performance Tee",
+      "price": 520,
+      "image": {
+        "beige": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1bf0376d-164b-4f6f-b4d3-30a92e9cc808/acg-graphic-performance-tee-toddler-sustainable-upf-dri-fit-tee-PnNzwc.png",
+        "brown": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/09806ff9-698c-4aee-b6f3-15a6c0ecfa85/acg-graphic-performance-tee-toddler-sustainable-upf-dri-fit-tee-PnNzwc.png",
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/36fe31d8-8bcb-4cda-885b-168a4a184fc0/acg-graphic-performance-tee-toddler-sustainable-upf-dri-fit-tee-PnNzwc.png",
+        "pink": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/94f239aa-6aa2-4be9-afec-f260f7a2bf5a/acg-graphic-performance-tee-toddler-sustainable-upf-dri-fit-tee-PnNzwc.png"
+      },
+      "category": "tshort",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "pink",
+        "brown",
+        "beige",
+        "red",
+        "white",
+        "black"
+      ],
+      "inStock": 31,
+      "priceSale": 416
+    },
+    {
+      "id": 18,
+      "title": "Nike t-short",
+      "price": 350,
+      "image": {
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1f472b3c-26ca-4528-8804-ef3b111ca1ac/toddler-t-shirt-sGzf44.png",
+        "beige": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/a5b981c6-af3b-4978-879e-534e4c9b0a81/toddler-t-shirt-sGzf44.png",
+        "blue": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/2bd4c1ed-5c48-4953-9b65-70f127139d50/toddler-t-shirt-sGzf44.png",
+        "brown": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ab6cbb7b-c5c2-4aa5-bd96-7cef880bc520/toddler-t-shirt-sGzf44.png"
+      },
+      "category": "tshort",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "pink",
+        "black",
+        "brown",
+        "beige",
+        "red",
+        "orange",
+        "white",
+        "blue",
+        "grey"
+      ],
+      "inStock": 20,
+      "priceSale": 350
+    },
+    {
+      "id": 19,
+      "title": "Футболка Бегемотик",
+      "price": 490,
+      "image": {
+        "beige": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f80b7177-83b0-42d6-a7e8-85c72e19a988/stripe-scape-futura-tee-toddler-dri-fit-t-shirt-gFXBfk.png",
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/55fb4833-d3ec-428f-b37f-8dd7a1406afa/stripe-scape-futura-tee-toddler-dri-fit-t-shirt-gFXBfk.png",
+        "brown": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f7a6a6b5-a712-43d9-b2af-3a75718f58bb/stripe-scape-futura-tee-toddler-dri-fit-t-shirt-gFXBfk.png",
+        "grey": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b1156856-3d42-44de-be04-6feb34629dd2/stripe-scape-futura-tee-toddler-dri-fit-t-shirt-gFXBfk.png"
+      },
+      "category": "tshort",
+      "size": [
+        "s",
+        "m",
+        "l",
+        "xl"
+      ],
+      "colors": [
+        "pink",
+        "brown",
+        "beige",
+        "orange",
+        "black",
+        "grey"
+      ],
+      "inStock": 19
+    },
+    {
+      "id": 20,
+      "title": "Футболка Киллуа",
+      "price": 500,
+      "image": {
+        "black": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/05a5fa70-8789-41a5-9d76-64bad328012c/air-balloon-tee-toddler-t-shirt-t4LVVt.png",
+        "beige": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4dd5a6e5-4d0f-46c7-9e51-5a7751b00e54/air-balloon-tee-toddler-t-shirt-t4LVVt.png",
+        "blue": "https://static.nike.com/a/images/t_PDP_LOADING_v1/f_auto,q_auto:eco/dc275970-8e8d-4029-a9e4-328e1b4cf1c5/air-balloon-tee-toddler-t-shirt-t4LVVt.png",
+        "brown": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/34da32e1-137a-4b8d-97c6-6beb16bef728/air-balloon-tee-toddler-t-shirt-t4LVVt.png"
+      },
+      "category": "tshort",
+      "size": [
+        "s",
+        "m",
+        "xl"
+      ],
+      "colors": [
+        "pink",
+        "black",
+        "brown",
+        "beige",
+        "red",
+        "orange",
+        "white",
+        "blue",
+        "grey"
+      ],
+      "inStock": 14
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "title": "itrun",
+      "discount": 5,
+      "count": 4
+    },
+    {
+      "id": 2,
+      "title": "sabine",
+      "discount": 15,
+      "count": 3
+    },
+    {
+      "id": 3,
+      "title": "rusik",
+      "discount": 25,
+      "count": 97
+    }
+  ],
+  "orders": [
+    {
+      "name": "",
+      "email": "SAD@MAIL.RU",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "street": "",
+      "house": "",
+      "flat": "",
+      "message": "",
+      "clothes": [
+        {
+          "id": 7,
+          "title": "Sport Suit STAMINA2",
+          "image": {
+            "black": "Shop/sportsuit2.jpg",
+            "white": "Shop/sportsuit2-white.jpg",
+            "red": "Shop/sportsuit2-red.jpg",
+            "pink": "Shop/sportsuit2-pink.jpg",
+            "grey": "Shop/sportsuit2-grey.jpg",
+            "beige": "Shop/sportsuit2-almond.jpg",
+            "blue": "Shop/sportsuit2-blue.jpg"
+          },
+          "color": "beige",
+          "size": "s",
+          "count": 2,
+          "price": 279,
+          "category": "sportsuit"
+        }
+      ],
+      "price": 558,
+      "userEmail": "admin@mail.ru",
+      "date": "2022-05-16T12:27:07.550Z",
+      "id": 1
+    },
+    {
+      "name": "mona",
+      "email": "nurik@mail.ru",
+      "phone": "",
+      "country": "",
+      "city": "",
+      "street": "",
+      "house": "",
+      "flat": "",
+      "message": "",
+      "clothes": [
+        {
+          "id": 6,
+          "title": "Sport Suit STAMINA1",
+          "image": {
+            "black": "Shop/sportsuit1-black.jpg",
+            "white": "Shop/sportsuit1-white.jpg",
+            "red": "Shop/sportsuit1-red.jpg",
+            "pink": "Shop/sportsuit1-pink.jpg",
+            "grey": "Shop/sportsuit1-grey.jpg",
+            "beige": "Shop/sportsuit1-beige.jpg",
+            "blue": "Shop/sportsuit1.jpg"
+          },
+          "color": "beige",
+          "size": "s",
+          "count": 1,
+          "price": 279,
+          "category": "sportsuit"
+        }
+      ],
+      "price": 279,
+      "userEmail": "admin@mail.ru",
+      "date": "2022-05-16T12:29:26.166Z",
+      "id": 2
+    }
+  ]
+}
