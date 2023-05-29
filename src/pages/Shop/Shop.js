@@ -13,7 +13,7 @@ const Shop = () => {
 
     const [sort, setSort] = useState('');
 
-    const {page, setPage, shop, status, setStatus, user, color, setColor} = useContext(CustomContext);
+    const {page, setPage, shop, status, setStatus, user, } = useContext(CustomContext);
 
     const showCount = shop.filter(item => status === 'all' ? item : item.category === status).filter(el => sort === 'discount' ? el.priceSale : el).filter((item, idx) => {
             return idx + 1 <= page * 9 && idx >= page * 9 - 9
